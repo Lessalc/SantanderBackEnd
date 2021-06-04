@@ -7,12 +7,12 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     # localhost
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 123654
-#    url: postgres://ozyrzfvjrtksby:178de8f91e14c32c6e954079c1dba8276d3ff3dc237c41d299753431446f6de4@ec2-52-5-247-46.compute-1.amazonaws.com:5432/d7r2von60qn4h6
-#    username: ozyrzfvjrtksby
-#    password: 178de8f91e14c32c6e954079c1dba8276d3ff3dc237c41d299753431446f6de4
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: postgres
+#    password: 123654
+    url: postgres://ozyrzfvjrtksby:178de8f91e14c32c6e954079c1dba8276d3ff3dc237c41d299753431446f6de4@ec2-52-5-247-46.compute-1.amazonaws.com:5432/d7r2von60qn4h6
+    username: ozyrzfvjrtksby
+    password: 178de8f91e14c32c6e954079c1dba8276d3ff3dc237c41d299753431446f6de4
 
   jpa:
     show-sql: true
